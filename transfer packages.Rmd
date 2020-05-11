@@ -17,7 +17,6 @@ When you click the **Knit** button a document will be generated that includes bo
 
 ```{r old version}
 #--run in the old version of R
-setwd("C:/Temp/")
 packages <- installed.packages()[,"Package"]
 save(packages, file="Rpackages")
 ```
